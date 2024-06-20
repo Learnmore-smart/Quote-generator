@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quote generator</title>
+    <style>
+        #white {background-color: white;}
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            }
+        h2 {
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+        color: rgba(27, 26, 26, 0.671)
+            }
+        button {
+            border-radius:120px;
+            width: 180px;
+            height: 80px;
+            margin: 12px;
+            font-size: 20px
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        #quote {
+            text-align: center;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quote generator</h1>
+    <h2>Did you know that you can also press "Enter" to generate a new quote?!</h2>
+    <div class="button-container">
+    <button id="white" onclick="generateQuote()">Clic me for a <span class="bold">quote</span>!</button>
+    </div>
+    <div class="button-container-2">
+    <p id="quote"></p>
+    <script src="index.js"></script>
+</body>
+</html>
