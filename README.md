@@ -1,4 +1,4 @@
-That's incredible! We are already at my third project - a wonderful "Quote generator"!
+That's incredible! Because WE are already at my third project - a wonderful "Quote generator"!
 
 As usual, here is the link:
 
